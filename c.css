@@ -1,68 +1,166 @@
 *{
     margin: 0;
     padding: 0;
-    background: #262626;
-  }
-  .center  {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .monitor {
-    width: 350px;
-    height: 200px;
-    background: #000;
-    border-bottom: 30px solid #d8d8d8;
-    border-radius: 10px;
-  }
-  .monitor:before {
-    content:"";
-    width: 70px;
-    height: 60px;
-    background: #bdbdbd;
-    position: absolute;
-    left: 50%;
-    bottom: -35px;
-    transform: perspective(100px) translateX(-50%) rotateX(25deg) skewX(7deg);
-    z-index: -1;
-    transform-origin: bottom;
-  }
-  .monitor:after {
-    content:"";
-    width: 140px;
-    height: 15px;
-    background: #bdbdbd;
-    position: absolute;
-    left: 50%;
-    bottom: -50px;
-    transform: translateX(-50%);
-    z-index: -1;
-    transform-origin: bottom;
-  }
-  
-  .monitor i {
-    position: absolute;
-    left: 50%;
-    bottom: 8px;
-    tex-decoration: none;
-    transform: translateX(-50%) scale(.8);
-    color: #858585;
-  }
-  .overlay {
-    position: absolute;
+    box-sizing: border-box;
+}
+
+.ehlel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: gray;
-  }
-  /* .overlay:before {
+    height: 100vh;
+}
+
+.gol {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 50%;
+    background: #f9e0af;
+}
+
+.togsgol {
+    position: absolute;
+    border-bottom: 25vmin solid #835050;
+    border-left: 7vmin solid transparent;
+    border-right: 7vmin solid transparent;
+    height: 0;
+    width: 40vmin;
+    bottom: 15vmin;
+    transform: rotate(180deg);
+    border-radius: 3vmin;
+}
+.togsgol::after {
+    content: ;
+    position: absolute;
+    width: 26vmin;
+    height: 1vmin;
+    background: #000;
+}
+
+.eyes {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: #000;
+    border-radius: 50%;
+    bottom: -15vmin;
+    right: 18vmin;
+    box-shadow: 10vmin 0 #000;
+}
+
+.hook {
+    position: absolute;
+    width: 2vmin;
+    height: 2.5vmin;
+    top: 9vmin;
+    left: 2vmin;
+    background: red;
+    border-radius: 50%;
+    opacity: 20%;
+    box-shadow: 16vmin 0 red;
+}
+
+.am {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    top: 5vmin;
+    left: 10vmin;
+    border-radius: 50%;
+    background: transparent;
+    border-top: 1vmin solid #000;
+}
+
+.cactus{
+    position: absolute;
+    width: 17vmin;
+    height: 30vmin;
+    top: 15vmin;
+    left: 25vmin;
+    background: #799351;
+    border-radius: 45%;
+    border: 1vmin solid #000;
+}
+
+.cactus::before{
     content: "";
     position: absolute;
-    left: -40px;
-    width: 60%;
-    height: 100%;
-    background: rgba(255, 250, 250, 0.911);
-    transform: skewX(-5deg); */
-  }
+    width: 5vmin;
+    height: 30vmin;
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+}
+
+.cactus::after{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 30vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+}
+Small {
+    position: absolute;
+    width: 17vmin;
+    height: 20vmin;
+    top: 25vmin;
+    right: 28vmin;
+    background: #799351;
+    border-radius: 45%;
+    border-left: 1vmin solid #000;
+}
+Small::before{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin; 
+    left: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 1vmin solid #335d2d;
+}
+
+.Small::after{
+    content: "";
+    position: absolute;
+    width: 5vmin;
+    height: 20vmin;
+    right: 6vmin;
+    background: transparent;
+    border-radius: 50%;
+    border-left: 1vmin solid #335d2d;
+} 
+
+.uzuur {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d ;
+    transform: rotate(-45deg);
+}
+
+.uzuur::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 5vmin;
+    left: 9vmin;
+    border-left: 1vmin solid transparent;
+    border-right: 1vmin solid transparent;
+    border-bottom: 7vmin solid #335d2d;
+    transform: rotate(90deg);
+}
