@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 150px;
+    height: 24px;
+}
+.am{
+    width: 20px;
+    height: 20px;
+}
+.mor{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tlogo{
+    width: 100%;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    color: #5F717D;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.egnee{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.eg{
+    padding: 5px;
+}
+.eg:hover{
+    background-color: #ff6600;
+    color: white;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.r{
+    margin: 0;
+    padding: 0;
+}
+p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #293C43;
+}
+.shr{ 
+    margin-left: 33rem;
+    background-color: #ff6600;
+    height: 8px;
+    width: 300px;
+    border-radius: 50px;
+}
+.m2{
+    border-radius: 10px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.mor2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    margin: 20px;
+}
+.egnee1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.ug2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+}
+.m3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mor4{
+    margin-top: 4rem;
+}
+.container{
+    justify-content: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 20px;
+}
+.shr{ 
+    margin-left: 33rem;
+    background-color: #ff6600;
+    height: 8px;
+    width: 300px;
+    border-radius: 50px;
+}
+.logo2{
+    width: 100px;
+    height: 100px;
+}
+.ug{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+}
+.shr2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center!important;
+    max-width: 25%;
+    margin-top: 2rem;
+}
+.ug0{
+    font-size: 14px;
+    line-height: 20px;
+    color: #5F717D;
+    margin-top: 10px;
+}
+.m5{
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.mor5{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.egnee9{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.ug9{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: #293C43;
+}
+.tom-tag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #f2f2f2;
+}
+.lo{
+    color: #000;
+}
+.holboo{
+    display: block;
+}
+.text{
+    text-align: center;
+}
+.and{
+    background-color: #f2f2f2;
+}
+.ug6{
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+}

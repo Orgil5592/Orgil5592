@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 150px;
+    height: 24px;
+}
+.am{
+    width: 20px;
+    height: 20px;
+}
+.mor{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tlogo{
+    width: 100%;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    color: #5F717D;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+.egnee{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.eg{
+    padding: 5px;
+    transition: 1s;
+}
+.eg:hover{
+    background-color: #ff6600;
+    color: white;
+    object-fit: cover;
+}
+.bo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding-top: 20px;
+}
+.ogno {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #293C43;
+} 
+.shar{ 
+    margin-left: 33rem;
+    background-color: #ff6600;
+    height: 8px;
+    width: 300px;
+    border-radius: 50px;
+}
+.humn{
+    margin: 60px;
+    padding: 15px, 5px;
+}
+.ogno{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+} 
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding-top: 20px;
+}
+
+.mii{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+}
+
+.zurg{
+    width: 100px;
+    height: 100px;
+}
+
+.somo {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center!important;
+    max-width: 25%;
+}
+
+.horg{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shar{ 
+    margin-left: 33rem;
+    background-color: #ff6600;
+    height: 8px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.og{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: #293C43;
+    text-align: center;
+    padding: 20px;
+}
+
+.tuhai{
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    color: #293C43;
+}
+
+.hun{
+    margin: 50px;
+    padding: 10px, 5px;
+    margin-top: -20px;
+}
+
+.humen{
+    display: flex;
+}
+
+.text{
+    text-align: center;
+    padding: 20px;
+}
+
+.abu{
+    margin: 45%;
+}
+
+.tom-tag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #f2f2f2;
+}
+.lo{
+    color: #000;
+}
+.holboo{
+    display: block;
+}
+.text{
+    text-align: center;
+}
+.and{
+    background-color: #f2f2f2;
+}
