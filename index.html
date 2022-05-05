@@ -1,28 +1,350 @@
+
+<!--
+    1r-substr
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="c.css">
-</head>
+<html>
 <body>
-    <input type="" id="m1"/><br/><br/>
-    <input type="" id="m2"/><br/><br/>
 
-    <select  id="operators">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="/">/</option>
-        <option value="*">*</option>
-    </select>
+<p id="demo"></p>
 
+<script>
+let text = "Hello world!";
+let result = text.substr(0, 12);
 
-    <button onclick="calc();">=</button>
+document.getElementById("demo").innerHTML = result;
+</script>
 
-    <input type="text" id="result">
-
-
-    <script src="app.js"></script>
 </body>
 </html>
+-->
+
+
+
+<!--
+    2r-substring
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text = "Hello world!";
+let result = text.substring(0, 5);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    3r-replace
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">Visit Microsoft!</p>
+<p id="gomo"> haha jsj</p>
+<script>
+let text = document.getElementById("demo").innerHTML; 
+document.getElementById("gomo").innerHTML = text.replace("Microsoft", "234567");
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    4r
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text = "Mr. Blue has a blue house"
+let position = text.search("has");
+
+document.getElementById("demo").innerHTML = position;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+
+<!--
+    5r-toLocaleLowerCase-jijig useg bolgn huvirgdag
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text = "Hello World!";
+let result = text.toLocaleLowerCase(H);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    6r-toLocaleUpperCase-oguulberiig tom bolgono
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text = "Hello World!";
+let result = text.toLocaleUpperCase();
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+
+    7r-indexOf-bairlliig eltgne
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello world, welcome to the universe.";
+let result = text.indexOf("to");
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+<!--
+    8r-
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello world!";
+let result = text.slice(0, 8);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+<!--
+    9r-concat-holboh zoriulltai
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text1 = "no";
+let text2 = "hoi";
+let result = text1.concat(text2);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+
+</html>
+-->
+
+
+
+<!--
+    10r-suulin index iig butsaana
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello planet earth, you are a great planet.";
+let result = text.lastIndexOf("you");
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    11r-
+<!DOCTYPE html>
+<html>
+<body>
+    
+<p id="demo"></p>
+
+<script>
+let text = "HELLO WORLD";
+let code = text.charCodeAt(5);
+
+document.getElementById("demo").innerHTML = code;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+
+<!--
+    12r-trim-ugiin hoosn zaig nohno
+<!DOCTYPE html>
+<html>
+<body>
+
+<pre><p id="demo1"></p></pre>
+<pre><p id="demo2"></p></pre>
+
+<script>
+let text = "     Hello World!     ";
+let result = text.trim(1);
+
+document.getElementById("demo1").innerHTML = text;
+document.getElementById("demo2").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    13r-zaasn bairlld butsaana
+<!DOCTYPE html>
+<html>
+<body>
+    
+<p id="demo"></p>
+
+<script>
+let text = "HELLO WORLD";
+let letter = text.charAt(7);
+
+document.getElementById("demo").innerHTML = letter;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    14r-anhdagch utgiig butsaana
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello World!";
+let result = text.valueOf();
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    15r-massiv bolgodg
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+let text = "a b c d";
+const myArray = text.split(" ");
+
+document.getElementById("demo").innerHTML = myArray; 
+</script>
+
+</body>
+</html>
+-->
+
+
+
+<!--
+    16r-moriin aguulgig butsaana
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello World!";
+let result = text.toString();
+
+document.getElementById("demo").innerHTML = result; 
+</script>
+
+</body>
+</html>
+-->
+
+
+<!--
+    17r-tohirhiig haidg
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+let text = "The rain in SPAIN stays mainly in the plain";
+let result = text.match("stays");
+ 
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
+-->
